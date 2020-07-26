@@ -1,0 +1,43 @@
+.form{
+    display: flex;
+    border-top: 1px solid rgb(204, 199, 199);
+    background-color: white;
+    flex-direction: row;
+}
+
+.form__input{
+    width: 500px;
+    margin: 10px;
+    align-self: center;
+    padding: 5px;
+}
+
+.form__button{
+    background-color: hsl(180, 100%, 25%);
+    padding: 10px;
+    font-size: 15px;
+    color: whitesmoke;
+    border: none;
+    font-size: small;
+    margin: 10px;
+    transition: background-color 1s, transform 1s;
+}
+.form__button:hover{
+    background-color: hsl(180, 100%, 30%);
+    transform: scale(1.1);
+}
+.form__button:active{
+    background-color: hsl(180, 100%, 35%);
+}
+
+@media(max-width:700px){
+    .form {
+        flex-direction: column;
+    }
+    
+    .form__input {
+        max-width: 90%;
+    }
+
+    
+}

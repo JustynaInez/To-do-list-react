@@ -1,0 +1,50 @@
+.list {
+    border-top: 1px solid rgb(204, 199, 199);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 20px 30px;
+ 
+}
+.list--hidden{
+    display: none;
+}
+
+
+.buttonDone {
+    background-color: hsl(120, 72%, 40%);
+    border: white;
+    width: 30px;
+    height: 25px;
+    transition: 1s;
+}
+.buttonDone:hover{
+    background-color: hsl(120, 72%, 45%); 
+}
+.buttonDone:active{
+    background-color: hsl(120, 72%, 50%); ;
+}
+
+.buttonRemove{
+    background-color: hsl(0, 100%, 50%);
+    border: white;
+    width: 30px;
+    height: 25px;
+    transition: 1s;
+}
+.buttonRemove:hover{
+    background-color:hsl(0, 100%, 40%); 
+}
+
+.buttonRemove:active{
+    background-color:hsl(0, 100%, 30%); 
+}
+
+.div__item{
+    word-break: break-all;
+     padding: 5px;
+ }
+ 
+ .div__item--done{
+     text-decoration: line-through;
+ }

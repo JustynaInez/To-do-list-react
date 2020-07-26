@@ -1,0 +1,17 @@
+.buttonsShowAfterClick{
+    background-color: white;
+    padding: 5px;
+    font-size: 15px;
+    color: hsl(180, 100%, 25%);
+    border: none;
+    font-size: small;
+    margin: 0px;
+    outline: transparent;
+}
+.buttonsShowAfterClick:hover{
+    color: hsl(180, 100%, 35%);;
+}
+.buttonsShowAfterClick:disabled{
+    color: rgba(197, 193, 193, 0.829);
+}
+
