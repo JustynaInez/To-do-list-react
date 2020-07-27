@@ -1,0 +1,33 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+   width: 660px;
+   max-width: 100%;
+}
+
+.section__headline {
+    margin-top: 0px;
+    background-color: white;
+    margin-bottom: 0px;
+    padding: 15px;
+}
+.section__flex{
+    display: grid;
+    grid-auto-flow: column;
+}
+.section__flex--end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 700px){
+    .section__flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
